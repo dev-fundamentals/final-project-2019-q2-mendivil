@@ -1,0 +1,20 @@
+package test.java.project;
+
+import static org.junit.Assert.*;
+
+import org.junit.Test;
+
+import logic.java.project.M4UserInterface;
+
+public class M4UserInterfaceTest {
+
+	@Test
+	public void test() {
+		fail("Not yet implemented");
+	}
+
+	@Test
+	public void done_setState_resultIndicatorOn() {
+		int actual = M4UserInterface.done
+	}
+}
