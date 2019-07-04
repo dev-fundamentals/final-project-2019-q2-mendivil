@@ -29,7 +29,7 @@ public class M4CoffeeMakerAPI implements CoffeeMakerAPI {
 		// TODO Auto-generated method stub
 		if (!potPresent)
 			return WARMER_EMPTY;
-		else if (boilerEmpty)
+		else if (potNotEmpty)
 			return POT_NOT_EMPTY;
 		else
 			return POT_EMPTY;

@@ -1,0 +1,43 @@
+package test.java.project;
+
+import logic.java.project.*;
+
+import static org.junit.Assert.*;
+
+import org.junit.Test;
+
+
+public class M4UserInterfaceTest {
+	
+	M4CoffeeMakerAPI api;
+	M4UserInterface ui = new M4UserInterface(api);
+	
+	@Test
+	public void check_buttonNotPressed_resultNotStartBrewing() {
+
+	}
+	
+	@Test
+	public void check_buttonPressed_resultStartBrewing() {
+		
+	}
+
+	@Test
+	public void done_changeState_resultIndicatorOn() {
+		api.lightOn = false;
+		ui.done();
+		boolean expected = true;
+		boolean actual = api.lightOn;
+		assertEquals(actual, expected);
+	}
+	
+	@Test
+	public void completeCycle_changeState_resultIndicatorOff() {
+		api.lightOn = true;
+		ui.completeCycle();
+		boolean expected = false;
+		boolean actual = api.lightOn;
+		assertEquals(actual, expected);
+		
+	}
+}

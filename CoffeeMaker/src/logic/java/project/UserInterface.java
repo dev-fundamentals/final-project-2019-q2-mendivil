@@ -4,7 +4,7 @@ public abstract class UserInterface {
 	
 	private Source source;
 	private Vessel vessel;
-	private boolean isComplete;
+	public boolean isComplete;
 	
 	public UserInterface() {
 		isComplete = true;
@@ -20,7 +20,7 @@ public abstract class UserInterface {
 		completeCycle();
 	}
 	
-	protected void startBrewing() {
+	public void startBrewing() {
 		if (source.isReady() && vessel.isReady()) {
 			isComplete = false;
 			System.out.println("UI: Starting the source");

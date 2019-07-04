@@ -1,0 +1,20 @@
+package test.java.project;
+
+import static org.junit.Assert.*;
+
+import org.junit.Test;
+
+
+public class M4UserInterfaceTest {
+
+	@Test
+	public void done_setState_resultIndicatorOn() {
+		// INDICATOR_ON = 0;
+		// INDICATOR_OFF = 1;
+		int actual = 1;
+		int expected = 0;
+		
+		actual = 0;
+		assertEquals(expected, actual);
+	}
+}

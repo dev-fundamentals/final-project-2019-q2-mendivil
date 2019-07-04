@@ -3,7 +3,7 @@ package logic.java.project;
 public abstract class Source {
 	private UserInterface ui;
 	private Vessel vessel;
-	protected boolean isBrewing;
+	public boolean isBrewing;
 	
 	public Source() {
 		isBrewing = false;

@@ -44,9 +44,11 @@ public class CoffeeMaker {
 		api.boilerEmpty = true;
 		source.check();
 		api.potNotEmpty = true;
-		//serving coffee
-		api.potNotEmpty = false;
+		// serving coffee
+		api.potNotEmpty = true;
 		vessel.check(true);
+		
+		// pot status, 3 states
 			
 		/* Scanner sn = new Scanner(System.in);
 		boolean exit = false;
