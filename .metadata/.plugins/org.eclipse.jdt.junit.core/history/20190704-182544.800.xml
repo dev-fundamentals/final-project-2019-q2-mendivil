@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?><testrun name="M4UserInterfaceTest" project="CoffeeMaker" tests="4" started="4" failures="0" errors="0" ignored="0">
+  <testsuite name="test.java.project.M4UserInterfaceTest" incomplete="true">
+    <testcase name="completeCycle_changeState_resultIndicatorOff" classname="test.java.project.M4UserInterfaceTest" time="0.0"/>
+    <testcase name="check_buttonPressed_resultStartBrewing" classname="test.java.project.M4UserInterfaceTest" time="0.0"/>
+    <testcase name="done_changeState_resultIndicatorOn" classname="test.java.project.M4UserInterfaceTest" time="0.0"/>
+    <testcase name="check_buttonNotPressed_resultNotStartBrewing" classname="test.java.project.M4UserInterfaceTest" incomplete="true"/>
+  </testsuite>
+</testrun>

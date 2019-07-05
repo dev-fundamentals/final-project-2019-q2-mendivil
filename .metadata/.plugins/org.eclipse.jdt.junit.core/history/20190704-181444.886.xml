@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?><testrun name="M4SourceTest" project="CoffeeMaker" tests="4" started="1" failures="0" errors="0" ignored="0">
+  <testsuite name="test.java.project.M4SourceTest" incomplete="true">
+    <testcase name="startBrewing_process_resultChangeStates" classname="test.java.project.M4SourceTest" incomplete="true"/>
+    <testcase name="isReady_boilerNotEmpty_resultTrue" classname="test.java.project.M4SourceTest" incomplete="true"/>
+    <testcase name="isReady_boilerEmpty_resultFalse" classname="test.java.project.M4SourceTest" incomplete="true"/>
+    <testcase name="check_boilerEmpty_resultChangeStates" classname="test.java.project.M4SourceTest" incomplete="true"/>
+  </testsuite>
+</testrun>

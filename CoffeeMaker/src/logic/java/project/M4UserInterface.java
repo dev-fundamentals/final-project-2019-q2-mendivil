@@ -3,6 +3,7 @@ package logic.java.project;
 public class M4UserInterface extends UserInterface {
 	
 	private CoffeeMakerAPI api;
+	public boolean ready = false;
 	
 	public M4UserInterface(CoffeeMakerAPI api) {
 		// TODO Auto-generated constructor stub
@@ -14,7 +15,9 @@ public class M4UserInterface extends UserInterface {
 		int buttonStatus = api.getBrewButtonStatus();
 		if (buttonStatus == api.BREW_BUTTON_PUSHED) {
 			startBrewing();
+			ready = true;
 		} else {
+			ready = false;
 			System.out.println("ALERT! Brew button is not pushed. Please push brew button to continue...");
 		}
 	}
